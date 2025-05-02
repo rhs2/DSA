@@ -47,6 +47,9 @@
 
 23. to push a repository in the github first we need to do [git remote add origin URL]
 
-24. then we need to do is [git push -u origin master]
+24. then we need to do is [git push -u origin master] then in this phase we need give our username and access[classic ID] for pushing the file. 
+
+25. else you can check the cheat sheet pdf from git folder 
+
 
 
