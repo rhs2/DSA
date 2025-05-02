@@ -1,0 +1,52 @@
+- initial- to start the git first we need to start with [git init] to initialise the git
+
+1. to go to the file we need to use -cd command like cd desktop
+-if we want to go to a folder name data_structure inside the desktop then first we go to -cd desktop then cd data_structure/
+
+2. to create a folder we need to use -mkdir command, mkdir with a folder name[mkdir Node]
+
+3. to create a file- use touch command [touch git.txt]
+
+4. to go back in a directory - cd .. it works on the directory I have visited
+
+5. to go up in a directory- cd - it works on the directory I have visited
+
+6. to see the status we need to use- git status-must
+
+7. to see the stage of a file, use- git add with file name[git add git.txt]-must
+
+8. to commit first we need to start [git commit] command, then we will see lower __INSERT__ option and we need to write what we changes, after writing that we need to press [esc] and then we see there is not option of __insert__ and then we write [:x] and we are done.-must
+ 
+9. also for commit we can use [git commit -m "customise message"]-must
+
+10. for seeing the git details use [git log]
+
+11. for tracking a modified file we can use [git add .]- for every files or for a single file [git add sium.txt]-must
+
+12. to see commited message in one line we can use [git log --oneline]-must
+
+13. to see what we did with the file/ what we changed we need to use [git show commitedID] to see details
+
+14. to get out from git log we need to press [q] to quit
+
+15. [git diff] can shows us what exactly we have changed like what we deleted and what we add in a file]
+
+16. to see the staged what we did, we can use [git diff --staged]
+
+17. to see difference between 2 commit we can use [git diff commitID1 commitID2]
+
+18. to delete a file with git [git rm sium.txt] but before deleting a file we need to make it staged and commited with the git
+
+19. to untrack a file [git reset HEAD filename] to unstage, this commamd will do is, to untrack track file/also we can use [git restore --staged filename] to unstaged a file/ we can also use [git restore filename] to discard changes in the directory
+
+20. to clear the command line use [clear]
+
+21. now for the version control we can use [git checkout commitID filename]
+
+22. by using [git clone URL] we can clone any repository. 
+
+23. to push a repository in the github first we need to do [git remote add origin URL]
+
+24. then we need to do is [git push -u origin master]
+
+
